@@ -1,0 +1,70 @@
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: calc(33% - 20px);
+    width: 100%;
+    margin: 10px;
+}
+.card-img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+
+}
+.card-name{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom__add{
+    font-size: 16px;
+    background-color: rgba(147, 141, 243, 0.2);
+    padding: 5px 15px;
+    border: 1px solid #8a8aff;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #3d4af3;
+}
+.card-bottom__add:hover{
+    background-color: #3d4af3;
+    color: #ffffff;
+    cursor: pointer;
+}
+.card-bottom__price{
+    font-size: 26px;
+    font-weight: 900;
+    font-family: monospace;
+    color: #1c40ff;
+}
+.card-bottom__price::before{
+    content: '$';
+}
+
+.basket-list{
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #b2b1b1;
+    border-radius: 16px;
+    width:100% ;    
+
+}
+
+.basket{
+    max-width: 100%;
+    width: calc(100% - 20px);    
+
+    display: flex;
+}
+
+.basket img{
+    width: 55px;
+    height: 55px;
+}

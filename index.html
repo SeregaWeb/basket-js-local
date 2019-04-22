@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <header class="header">
+                <div class="basket">
+                    <button class="basket-btn"></button>
+                    <ul class="basket-list">
+
+                    </ul>
+                </div>
+            </header>
+            <main class="main">
+                <ul class="card-list">
+                    
+                </ul>
+            </main>
+        </div>
+    </div>
+
+<script id="template-card" type="text/template">
+   <li class="card"> 
+            <img src="" class="card-img" alt="card images" title="card images">
+            <h2 class="card-name"></h2>
+            <div class="card-bottom">
+                <span class="card-bottom__price"></span>
+                <button class="card-bottom__add js-add">Add to card</button>
+        </div>
+    </li>
+</script>
+<script id="template-basked" type="text/template">
+    <li class="card basket "> 
+             <img src="" class="card-img" alt="card images" title="card images">
+             <div class="card-bottom">
+                <p class="card-name"></p>
+                 <span class="card-bottom__price"></span>
+                 <button class="card-bottom__add js-del">Delete</button>
+                 <input type="number" class="card-bottom__num" min-value="1" name="" id="">
+         </div>
+     </li>
+ </script>
+<script type="text/javascript" src="shop.json" id="shop"></script>
+<script src="js/jQuery.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
