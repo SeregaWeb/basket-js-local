@@ -32,6 +32,7 @@
     border-radius: 25px;
     font-weight: 600;
     color: #3d4af3;
+    margin: 0 15px;
 }
 .card-bottom__add:hover{
     background-color: #3d4af3;
@@ -43,6 +44,7 @@
     font-weight: 900;
     font-family: monospace;
     color: #1c40ff;
+    margin: 0 15px;
 }
 .card-bottom__price::before{
     content: '$';
@@ -51,7 +53,6 @@
 .basket-list{
     min-width: 200px;
     min-height: 200px;
-    background-color: #b2b1b1;
     border-radius: 16px;
     width:100% ;    
 
@@ -60,8 +61,8 @@
 .basket{
     max-width: 100%;
     width: calc(100% - 20px);    
-
     display: flex;
+    align-items: center;
 }
 
 .basket img{
